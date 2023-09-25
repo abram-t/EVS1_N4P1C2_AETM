@@ -18,9 +18,9 @@ from django.contrib import admin
 from django.urls import path
 from app1 import views as v1
 from app1 import views as v2
+from app2 import views as v1
+from app2 import views as v2
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vista1rama1/', v1.vista1rama1),
-    path('vista2rama1/', v2.vista2rama1),
 ]
 
